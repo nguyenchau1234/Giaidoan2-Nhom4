@@ -1,0 +1,159 @@
+{
+    "list_products" : [{
+        "name": "Iphone XS",
+        "company": "APPLE",
+        "img": "img/products/iphonexa.jpg",
+        "price": "23.490.000",
+        "star": 3,
+        "rateCount": 26,
+        "promo": {
+            "name": "tragop",
+            "value": "0"
+        },
+      
+        "masp": "01"
+    }, {
+        "name": "Iphone 11",
+        "company": "APPLE",
+        "img": "img/products/iphone11b.jpg",
+        "price": "29.490.000",
+        "star": 5,
+        "rateCount": 188,
+        "promo": {
+            "name": "giamgia",
+            "value": "500.000"
+        },
+       
+        "masp": "02"
+    }, {
+        "name": "Iphone 11 Pro",
+        "company": "APPLE",
+        "img":  "img/products/iphone11d.jpg",
+        "price": "30.490.000",
+        "star": 5,
+        "rateCount": 7,
+        "promo": {
+            "name": "giamgia",
+            "value": "250.000"
+        },
+       
+        "masp": "03"
+    },  {
+        "name": "Iphone 11 ProMax",
+        "company": "APPLE",
+        "img":  "img/products/iphone11c.jpg",
+        "price": "31.490.000",
+        "star": 4,
+        "rateCount": 10,
+        "promo": {
+            "name": "giareonline",
+            "value": "27.990.000"
+        },
+       
+        "masp": "04"
+    },  {
+        "name": "Iphone 12",
+        "company": "APPLE",
+        "img": "img/products/iphone-12c.png",
+        "price": "33.490.000",
+        "star": 4,
+        "rateCount": 16,
+        "promo": {
+            "name": "tragop",
+            "value": "0"
+        },
+        
+        "masp": "05"
+    }, {
+        "name": "Iphone 12 Pro",
+        "company": "APPLE",
+        "img": "img/products/iphone-12f.png",
+        "price": "28.500.000",
+        "star": 4,
+        "rateCount": 104,
+        "promo": {
+            "name": "moiramat",
+            "value": ""
+        },
+       
+        "masp": "06"
+    }, {
+        "name": "Iphone 12 ProMax",
+        "company": "APPLE",
+        "img":  "img/products/iphone-12e.png",
+        "price": "2.490.000",
+        "star": 4,
+        "rateCount": 66,
+        "promo": {
+            "name": "moiramat",
+            "value": ""
+        },
+        
+        "masp": "07"
+    }, {
+        "name": "Iphone 13",
+        "company": "APPLE",
+        "img": "img/products/iphone-13d.jpg",
+        "price": "29.990.000",
+        "star": 5,
+        "rateCount": 87,
+        "promo": {
+            "name": "moiramat",
+            "value": ""
+        },
+       
+        "masp": "08"
+    }, {
+        "name":"Iphone 13 Pro",
+        "company": "APPLE",
+        "img": "img/products/iphone-13e.jpg",
+        "price": "31.990.000",
+        "star": 4,
+        "rateCount": 372,
+        "promo": {
+            "name": "tragop",
+            "value": "0"
+        },
+      
+        "masp": "09"
+    }, {
+        "name":"Iphone 13 ProMax",
+        "company": "APPLE",
+        "img": "img/products/iphone-13f.jpg",
+        "price": "34.990.000",
+        "star": 5,
+        "rateCount": 3720,
+        "promo": {
+            "name": "moiramat",
+            "value": "0"
+        },
+      
+        "masp": "10"
+    }, {
+        "name": "Iphone 15",
+        "company": "APPLE",
+        "img":"img/products/iphone15.jpg",
+        "price": "37.900.000",
+        "star": 5,
+        "rateCount": 347,
+        "promo": {
+            "name": "moiramat",
+            "value": "0"
+        },
+       
+        "masp": "11"
+    }, {
+        "name": "Iphone 15 Plus",
+        "company": "APPLE",
+        "img":  "img/products/iphone 15 plus.jpg",
+        "price": "42.990.000",
+        "star": 5,
+        "rateCount": 999,
+        "promo": {
+            "name": "moiramat",
+            "value": "0"
+        },
+    
+        "masp": "12"
+    } ]
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Liên hệ - Thế giới điện thoại</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!-- Load font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        crossorigin="anonymous">
+
+    <!-- our files -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/topnav.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/taikhoan.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/lienhe.css">
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+    <script src="js/dungchung.js"></script>
+    <script src="js/lienhe.js"></script>
+
+</head>
+
+<body  style="background-color:	#c1cdc1">
+    <script> addTopNav();</script>
+
+    <section style="min-height: 85vh; background-color: 	#faf0e6; ">
+        <script> addHeader(); </script>
+
+        <div class="body-lienhe">
+            <div class="lienhe-header">Liên hệ</div>
+            <div class="lienhe-info">
+                <div class="info-left">
+                    <p>
+                        <h2 style="color: gray"> CÔNG TY CỔ PHẦN NHÓM 7 THÀNH VIÊN </h2><br />
+                        <b>Địa chỉ:</b> 456 Tôn Đức Thắng, Hòa Khánh Bắc, Liên Chiểu, Đà Nẵng <br /><br />
+                        <b>Telephone:</b> 028 3835 4409<br /><br />
+                        <b>Hotline:</b> 097777777 - CSKH: 028 9996 777<br /><br />
+                        <b>E-mail:</b> nhom4@gmail.com<br /><br />
+                        <b>Mã số thuế:</b> 01 02 03 04 05<br /><br />
+                        <b>Tài khoản ngân hàng :</b><br /><br />
+                        <b>Số TK:</b> 0909689622 <br /><br />
+                        <b>Tại Ngân hàng:</b> Viettinbank Chi nhánh Đà Nẵng<br /><br /><br /><br />
+                        <b>Quý khách có thể gửi liên hệ tới chúng tôi bằng cách hoàn tất biểu mẫu dưới đây. Chúng tôi
+                            sẽ trả lời thư của quý khách, xin vui lòng khai báo đầy đủ. Hân hạnh phục vụ và chân thành
+                            cảm ơn sự quan tâm, đóng góp ý kiến đến Smartphone Store.</b>
+                    </p>
+               
+            </div>
+            <div class="lienhe-info">
+
+                <div class="guithongtin">
+                    <p style="font-size: 22px; color: gray; margin-top: -450px">Gửi thông tin liên lạc cho chúng tôi: </p>
+                    <hr />
+                    <form name="formlh" onsubmit="return nguoidung()">
+                        <table cellspacing="10px">
+                            <tr>
+                                <td>
+                                    <br>Họ và tên</br>
+                                </td>
+                                <td>
+                                    <br><input type="text" name="ht" size="40" maxlength="40" placeholder="Họ tên"
+                                               autocomplete="off" required style="width: 80%; height: 40px;"></br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <br>Điện thoại liên hệ</br>
+                                </td>
+                                <td>
+                                    <br><input type="text" name="sdt" size="40" maxlength="11" minlength="10" placeholder="Điện thoại"
+                                               autocomplete="off" required style="width: 80%; height: 40px;"></br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <br>Địa chỉ Email</br>
+                                </td>
+                                <td>
+                                    <br><input type="email" name="em" size="40" maxlength="40" minlength="40" placeholder="Email" 
+                                               autocomplete="off" required style="width: 80%; height: 40px;"></br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <br>Tiêu đề</br>
+                                </td>
+                                <td>
+                                    <br><input type="text" name="tde" size="40" maxlength="100" placeholder="Tiêu đề"
+                                               autocomplete="off" required style="width: 80%; height: 40px;"></br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <br>Nội dung</br>
+                                </td>
+                                <td>
+                                    <br><textarea name="nd" rows="5" cols="44" maxlength="500" wrap="physical"
+                                                  placeholder="Nội dung liên hệ" required style="width: 80%; height: 80px;"></textarea></br>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <br></br>
+                                </td>
+                                <td>
+                                    <br><button type="submit">Gửi thông tin liên hệ</button></br>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <script>
+        addContainTaiKhoan();
+    </script>
+
+    <div class="footer">
+        <script>
+            addFooter();
+        </script>
+
+    </div>
+
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+
+</body>
+
+</html>
